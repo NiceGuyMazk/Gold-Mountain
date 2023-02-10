@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function copyText() {
+        const copyText = document.getElementById("textToCopy");
+        copyText.select();
+        document.execCommand("copy");
+      }
+    </script>
+    <title>My Minecraft Server</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- Add the navigation bar -->
+    <nav>
+      <a href="index.html">
+        <img src="assets/goldberg-mini.png" alt="" />
+      </a>
+      <a href="index.html">Home</a>
+      <a href="AboutUs.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+      <div class="left-side">
+        <h1 class="h2">Welcome to Gold Mountain</h1>
+        <div class="server-status">Server is online</div>
+        <!-- Add a button to join the server -->
+        <button id="join-server">Join Server</button>
+      </div>
+      <div class="right-side">
+          <h3>Leaderboard</h3>
+        <!-- Add the leaderboard table -->
+        <table>
+          <tr>
+            <th></th>
+            <th>Username</th>
+            <th>Score</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Player1</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Player2</td>
+            <td>900</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Player3</td>
+            <td>800</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Player4</td>
+            <td>800</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Player5</td>
+            <td>700</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Player6</td>
+            <td>600</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>Player7</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>Player8</td>
+            <td>400</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>Player9</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>Player10</td>
+            <td>200</td>
+          </tr>
+        </table>
+        <h3>Description</h3>
+        <p>
+          This is a description about the leaderboard and how it works on the
+          server. The leaderboard displays the top players on the server based
+          on their score. The score is updated regularly to relect the latest
+          progress of the players.
+        </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
